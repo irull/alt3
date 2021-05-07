@@ -1,0 +1,180 @@
+/* resets */
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Poppins", sans-serif;
+}
+
+/* main */
+header {
+  height: 250px;
+  z-index: 10;
+}
+.header-banner {
+  /* background-color: #333; */
+  background-image: url("assets/BANNER.jpg");
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 100%;
+  height: 300px;
+}
+
+header span {
+  position: absolute;
+  top: 17%;
+  right: 15px;
+}
+header .fa {
+  padding: 10px;
+  font-size: 15px;
+  width: 35px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 9px;
+  border-radius: 50%;
+}
+
+header .fa:hover {
+  opacity: 0.7;
+}
+
+header .fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+header .fa-twitter {
+  background: #55acee;
+  color: white;
+}
+header .fa-instagram {
+  background: #125688;
+  color: white;
+}
+header .fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+header .fa-whatsapp {
+  background: #20cb53;
+  color: white;
+}
+header .join {
+  position: absolute;
+  top: 7%;
+  right: 9%;
+}
+header .join img {
+  width: 50%;
+  height: auto;
+}
+header .join img:hover {
+  opacity: 0.9;
+}
+header .origami {
+  position: absolute;
+  top: 22%;
+  right: 1px;
+}
+header .origami img {
+  width: 100%;
+  height: auto;
+}
+header .origami img:hover {
+  opacity: 0.9;
+}
+.fixed-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+nav {
+  width: 100%;
+  height: 60px;
+  background: #d7da1400;
+  /* position: fixed; */
+  z-index: 10;
+}
+
+nav div {
+  color: rgb(38, 194, 214);
+  font-size: 2rem;
+  line-height: 60px;
+  position: absolute;
+  top: 0;
+  left: 2%;
+  visibility: hidden;
+}
+.visible-title {
+  visibility: visible;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: -6% 25% auto 5%;
+  padding-left: 0;
+  text-align: right;
+  max-width: 100%;
+}
+nav ul li {
+  display: inline-block;
+  line-height: 60px;
+  margin-left: 80px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #1871f5;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+/* .row {
+  margin-top: 1em;
+} */
+.side-navbar {
+  width: 250px;
+  height: 100em;
+  position: absolute;
+  margin-left: -300px;
+  background-color: #14829e;
+  transition: 0.5s;
+}
+.nav-link {
+  cursor: pointer;
+}
+.nav-link:active,
+.nav-link:focus,
+.nav-link:hover {
+  background-color: #ffffff26;
+}
+
+.my-container {
+  transition: 0.4s;
+}
+
+.active-nav {
+  margin-left: 0;
+}
+
+/* for main section */
+.active-cont {
+  margin-left: 230px;
+}
+
+#menu-btn {
+  background-color: #206e9b;
+  color: #fff;
+  margin-left: -62px;
+}
+
+.my-container input {
+  border-radius: 2rem;
+  padding: 2px 20px;
+}
+.menukanan {
+  position: relative;
+  margin-top: 5em;
+}
